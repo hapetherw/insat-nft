@@ -1,0 +1,34 @@
+{
+  "name": "instagram-offer-nft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/all-crypto/instagram-offer-nft.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/all-crypto/instagram-offer-nft/issues"
+  },
+  "homepage": "https://gitlab.com/all-crypto/instagram-offer-nft#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.4.1",
+    "@openzeppelin/test-helpers": "^0.5.10",
+    "bufferutil": "^3.0.5",
+    "chai": "^4.3.4",
+    "dotenv": "^8.2.0",
+    "mocha": "^8.3.2",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "truffle-plugin-verify": "^0.5.7",
+    "web3": "^1.3.4",
+    "ws": "^1.1.5"
+  }
+}

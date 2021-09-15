@@ -1,0 +1,77 @@
+.header {
+  padding: 0.25em 0;
+  border-bottom: 2px solid rgba(239, 239, 239, 0.96);
+  .navbar-brand {
+    font-size: 16px !important;
+  }
+  img {
+    width: 30px;
+    cursor: pointer;
+  }
+  .account-menu {
+    display: flex;
+    align-items: center;
+  }
+  .auth-group {
+    display: flex;
+  }
+  #header-dropdown {
+    min-height: 42px;
+    background: #f3f6f6;
+    color: #1a2f34;
+    font-weight: 600;
+    border-radius: 10px;
+    padding-left: 1em;
+    padding-right: 1em;
+    img {
+      max-width: 26px;
+      border-radius: 8px;
+    }
+    &::after {
+      display: none;
+    }
+  }
+  .navbar-nav {
+    align-items: center;
+  }
+  .minta-post {
+    color: #1a2f34 !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    letter-spacing: 0.23em;
+
+    img {
+      margin-right: 0.6em;
+    }
+  }
+  .header-search {
+    position: relative;
+    width: 280px; 
+    svg {
+      position: absolute;
+      right: 10px;
+      top: 15px;
+      color: #8f9ea1;
+    }
+    .form-control {
+      border: none;
+      outline: none;
+      padding-right: 30px;
+      height: 44px;
+      &:focus {
+        border: 1px solid #e2e2e2;
+        box-sizing: border-box;
+        border-radius: 10px;
+        box-shadow: 0px 1px 8px rgba(159, 159, 159, 0.19);
+      }
+      &:focus + svg {
+        color: #F7856C;
+      }
+    }
+  }
+  .pink-button,
+  .pink-outline-button {
+    padding: 8px 16px !important;
+    min-width: 120px !important;
+  }
+}

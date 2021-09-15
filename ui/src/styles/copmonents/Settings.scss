@@ -1,0 +1,29 @@
+.settings-container {
+    background: #FAF9FB;
+    padding-top: 50px; 
+    padding-bottom: 50px;  
+    min-height: calc(100vh - 226px);
+    .change-password-form,.update-setting-form {
+        .form-group {
+            margin-bottom: 0.2rem!important;
+        }
+        .form-check-input {
+            width: 20px!important;
+            height: 20px!important;
+            margin-top: 0px;   
+        }
+        .form-check-label {
+            margin-left: 10px;
+        }
+    }
+    .update-setting-form {
+        .save-changes {
+            background: transparent;
+            border: none;
+            color: #F6856C;
+            img {
+                max-width: 24px;
+            }
+        }
+    }
+}

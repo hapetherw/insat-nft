@@ -1,0 +1,182 @@
+.top-auction {
+  padding: 100px 0px 50px 0px;
+  background: white !important;
+  .small-header-title {
+    color: #1a2f34 !important;
+  }
+  .small-header-text {
+    color: #8f9ea2 !important;
+  }
+  .homepage-section-title {
+    img {
+      max-width: 900px;
+    }
+  }
+  .section-title {
+    font-size: 36px;
+    font-weight: 900 !important;
+    line-height: 157.5%;
+    letter-spacing: 0.065em;
+  }
+  .homepage-search-input {
+    max-width: 800px;
+    input {
+      outline: none;
+      height: 48px;
+      background: #faf9fb;
+      border: 1px solid #e2e2e2;
+      box-sizing: border-box;
+      border-radius: 12px;
+      color: #8f9ea2;
+    }
+  }
+}
+
+.auction-detail,
+.buypost,
+.buypost-offer,
+.auction-authenticity {
+  position: relative;
+  background: #faf9fb;
+  border-radius: 60px;
+  margin-top: 100px;
+  padding: 50px 15px;
+  .auction-bg {
+    position: absolute;
+    max-width: 530px;
+    max-height: calc(100% + 50px);
+    left: 20px;
+    bottom: 20px;
+  }
+  .place-bid {
+    padding: 14px 80px;
+  }
+  .ethereum {
+    max-width: 16px;
+  }
+}
+
+.buypost,
+.buypost-offer,
+.auction-authenticity {
+  margin-top: 20px !important;
+}
+
+.buypost-offer {
+  .form-group {
+    position: relative;
+    .icon {
+      position: absolute;
+      background: #dbe5e7;
+      color: #8f9ea2;
+      border-radius: 6px;
+      top: 9px;
+      left: 9px;
+      width: 30px;
+      height: 30px;
+      line-height: 28px;
+      font-weight: bold;
+      text-align: center;
+      img {
+        max-height: 24px;
+      }
+    }
+  }
+  .form-control {
+    background: #fafbff;
+    border: 1px solid #d7e1f5;
+    box-sizing: border-box;
+    border-radius: 8px !important;
+    color: #8f9ea2 !important;
+    padding-left: 44px;
+    min-height: 48px;
+  }
+}
+
+.homepage-content {
+  margin: 60px 100px;
+  @media screen and (max-width: 52em) {
+    margin: 50px;
+  }
+  .normal-header-title {
+    margin-bottom: 80px;
+  }
+  .custom-tabs {
+    justify-content: center;
+  }
+  .tab-content {
+    padding-top: 3em;
+  }
+  .nav-link {
+    margin-right: 2rem;
+  }
+}
+
+.post-middle-line {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.post-item , .post-extra-item {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  .content {
+    background: #ffffff;
+    box-sizing: border-box;
+    .user-instaram,
+    .timer {
+      max-width: 16px;
+      max-height: 16px;
+    }
+
+    .auction-header {
+      .post-item-user-mark {
+        font-size: 16px !important;
+        .avatar img {
+          width: 32px !important;
+          height: 32px !important;
+        }
+      }
+    }
+
+    .auction-detail-card {
+      opacity: 0.9;
+      border: 1px solid #e9e9e9;
+      box-sizing: border-box;
+      border-radius: 6px;
+    }
+    .post-item-title {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .auction-img-content {
+      border-radius: 6px;
+      .camera-btn {
+        position: absolute;
+        right: 15px;
+        bottom: 10px;
+        max-width: 28px;
+      }
+      .post-name {
+        left: 20px;
+        bottom: 10px;
+        font-weight: bold;
+        background: #1a2f34;
+        color: white;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+      }
+    }
+  }
+
+  .auction-img {
+    width: 100%;
+    max-height: 600px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+}

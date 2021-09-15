@@ -1,0 +1,101 @@
+.privacy {
+    
+    .container {
+        padding: 80px 0px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 820px;
+        h2 {
+            font-weight: 600;
+            font-size: 60px;
+            margin-bottom: 48px;
+        }
+        p {
+            font-size: 17px;
+        }
+        .sub-des {
+            line-height: 2.5em;
+        }
+        .policy-content {
+            line-height: 1.8em;
+            ol>li {
+                margin-top: 12px;
+            }
+        }
+    }
+}
+
+.terms-of-service {
+ 
+ .container {
+    padding: 80px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+    h3 {
+        font-size: 34px;
+        color: black;
+    }
+    .sub-des {
+        font-size: 26px;
+        line-height: 2em;
+        span {
+            font-size: 22px;
+        }
+    }
+    .t-content {
+        margin-top: 30px;
+        font-size: 22px;
+        line-height: 1.5em;
+        .ml-6 {
+            margin-top: 15px;   
+            margin-bottom: 15px;
+        }
+        .t-title {
+            font-weight: 600;
+        }
+        .t-cap-content {
+            margin-left: 26px;
+        }
+    }
+ }
+ 
+}
+
+.faq {
+    h1 {
+        font-weight: 600;
+        font-size: 60px;
+        margin-bottom: 48px;
+    }
+    .container {
+        padding: 80px 0px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 920px;
+        h3 {
+            font-size: 30px;
+            font-weight: 500!important;
+        }
+        .accordion > .card {
+            border: none!important;
+            box-shadow: none!important;
+            color: rgb(48, 48, 48)!important;
+            .card-header {
+                width: 100%;
+                background: white;
+                font-size: 19px;
+                font-weight: 500!important;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                &.is-selected {
+                    color: #FF8B53!important;
+                }
+            }
+            .collapse {
+                width: 100%;
+            }
+        }
+    }
+}

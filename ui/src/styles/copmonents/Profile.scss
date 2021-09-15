@@ -1,0 +1,118 @@
+.user-profile {
+  background: #faf9fb;
+  padding-top: 80px;
+  .profile-post-content {
+    padding: 4em 100px 3em 100px;
+    background: white;
+    .nav {
+      margin-left: 120px;
+      margin-right: 120px;
+      @media screen and (max-width: 768px) {
+        margin-left: 30px;
+        margin-right: 30px;
+        display: block;
+        .nav-link {
+          margin-bottom: 2rem;
+        }
+      }
+      .nav-link {
+        margin-right: 2rem;
+      }
+    }
+
+    .tab-content {
+      margin-top: 3em;
+    }
+
+    .custom-tabs {
+      justify-content: center;
+    }
+    .no-profile-post {
+      img {
+        max-width: 450px;
+      }
+      p {
+        font-size: 18px;
+        font-weight: bold;
+        color: #8F9EA2;
+      }
+    }
+  }
+  .profile-section {
+    position: relative;
+    padding-bottom: 5em;
+    @media screen and (max-width: 560px) {
+      padding-bottom: 1em;
+    }
+    .share-key {
+      position: absolute;
+      display: flex;
+      right: 0px;
+      bottom: -25px;
+      @media screen and (max-width: 500px) {
+        right: 10px;
+        svg {
+          display: none;
+        }
+      }
+    }
+    .input-group {
+      background: white;
+      border: 1px solid #ced4da;
+      border-radius: 12px;
+      min-width: 240px;
+      input {
+        border: none;
+      }
+      @media screen and (max-width: 500px) {
+        min-width: 200px;
+      }
+    }
+  }
+  .user-profile-form {
+    .form-group label,
+    .form-group input {
+      font-weight: 600 !important;
+    }
+    .user-instaram {
+      width: 18px;
+      height: 18px;
+    }
+    .clone-icon {
+      color: #f7856c;
+    }
+  }
+  .user-profile-avatar {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #F7856C;
+    border-radius: 50%;
+    background: #F7F7F7;
+    text-align: center;
+    line-height: 94px;
+    position: relative;
+    @media screen and (max-width: 992px) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .edit-avatar {
+      position: absolute;
+      right: 0px;
+      background: #f7856c;
+      color: white;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 50%;
+      &.upload-profile-img {
+        max-width: 30%;
+        border-radius:0%;
+      }
+    }
+  }
+}
